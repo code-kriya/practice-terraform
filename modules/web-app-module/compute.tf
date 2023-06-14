@@ -24,6 +24,6 @@ resource "aws_instance" "instance_2" {
           python3 -m http.server 8080 &
           EOF
   tags = {
-    Name = "${var.environment_name}.${var.app_name}.1"
+    Name = "${var.environment_name}.${var.app_name}.2"
   }
 }
