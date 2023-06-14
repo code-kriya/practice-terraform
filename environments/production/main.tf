@@ -28,7 +28,7 @@ variable "db_pass" {
 }
 
 locals {
-    environment_name = "production"
+  environment_name = "production"
 }
 
 module "web_app" {
